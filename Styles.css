@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f6f6f6;
+    margin: 0;
+  }
+  .container-login{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+     font-size: 16px;
+    margin: 20px 0;
+    text-align: center;
+    background-color:#efc0e6;
+    padding: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #cbcccd;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b8b8b8;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+  }
+
+  #store {
+    margin: 20px 0;
+    padding: 40px;
+  }
+  
+  #store h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  #store input[type="text"] {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #store button {
+    background-color: #efc0e6;
+    color: #fff;
+  }
+  
+  #store button:hover {
+    background-color: #e8d6e5;
+  }
+  
+  #productList {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  }
+  
+  .product {
+    flex: 1 1 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    width: 18rem;
+    height: 20rem;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  span{
+    padding: 20px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 10px;
+  }
+  

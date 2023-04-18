@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Michell Henao</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="./Script.js"></script>
+</head>
+<body>
+  <div class="container-login">
+    <h1>Registro</h1>
+    <form>
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <button type="button" onclick="register()">Registrarse</button>
+    </form>
+    
+    <h1>Iniciar sesión</h1>
+    <form>
+      <label for="loginUsername">Nombre de usuario:</label>
+      <input type="text" id="loginUsername" name="loginUsername"><br><br>
+      <label for="loginPassword">Contraseña:</label>
+      <input type="password" id="loginPassword" name="loginPassword"><br><br>
+      <button type="button" onclick="login()">Iniciar sesión</button>
+    </form>
+  
+    <div id="message"></div>
+    
+    </div>
+
+    <div id="store" style="display:none">
+    <h2>Tienda Michell Henao</h2>
+    <div>
+         <input type="text" id="searchBox"placeholder="Buscar producto por nombre...">
+         <button onclick="search()">Buscar</button>
+    </div>
+    <div id="productList"></div>
+</div>
+  </body>
+</html>
